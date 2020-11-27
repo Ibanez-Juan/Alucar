@@ -10,6 +10,10 @@
 
      <!-- Font Awesome -->
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+     <!--Font Family-->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Oregano&display=swap" rel="stylesheet">
  
      <!-- HTML5Shiv -->
      <!--[if lt IE 9]>
@@ -20,7 +24,9 @@
      <link rel="stylesheet" type="text/css" href="css/main.css">
 
     <!--Colocar a imagem de logo-->
+    <link rel="icon" href="img/logo.svg">
     <title>Alucar</title>
+    
 </head>
 <body>
     <header>
@@ -59,14 +65,41 @@
           </nav>
     </header>
 
-    <div class="container conteudo">
-        <p>Acrescentar</p>
-        <p>Lorem ipsum dolor sit amet</p>
-        <p>Lorem ipsum dolor sit amet</p>
-        <p>Lorem ipsum dolor sit amet</p>
-        <p>Lorem ipsum dolor sit amet</p>
-        <p>Lorem ipsum dolor sit amet</p>
-    </div>
+    <section id="home" class="d-flex"><!--home -->
+        <div class="container align-self-center"><!--container -->
+          <div class="row"><!--row -->
+            <div class="col-md-12 capa">
+              
+             <div id="carousel-alucar" class="carousel slide" data-ride="carousel">
+                 <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <h1>O seu site de Alugueu de Carros</h1>
+                      <a href="#contato" class="btn btn-lg btn-custom btn-roxo">
+                        Entre em contato
+                      </a>
+                  </div>
+  
+                  <div class="carousel-item">
+                      <h1>Conheça nossos Serviços</h1>
+                      <a href="#servicos" class="btn btn-lg btn-custom btn-branco">
+                        <i>serviços</i>
+                      </a>
+                  </div>
+                 </div>
+  
+                 <a href="#carousel-alucar" class="carousel-control-prev" data-slide="prev">
+                     <i class="fa fa-angle-left fa-3x"></i>
+                 </a>
+                 <a href="#carousel-alucar" class="carousel-control-next" data-slide="next">
+                  <i class="fa fa-angle-right fa-3x"></i>
+              </a>
+             </div>
+  
+            </div>
+          </div><!--/row -->
+        </div><!--/container -->
+      </section><!--/home -->
+
 
     <div class="servicos">
         <p>Alguma coisa</p>

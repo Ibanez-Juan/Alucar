@@ -36,12 +36,20 @@ nav.navbar-transparent {
 .logo-escrito h3{
     font-size: 50px;
     padding: 0px;
+    font-family: 'Oregano', cursive;
+    letter-spacing: 5px;
 }
 
 .logo-escrito span{
     color: red;
+    font-family: 'Oregano', cursive;
 }
-
+.logo-escrito p{
+    text-align: top;
+    font-family: 'Oregano', cursive;
+    color: #fff;
+    line-height: 0px;
+}
 
 /*Modificação do texto logo
 ------------------------------ */
@@ -66,13 +74,57 @@ nav.navbar-transparent {
     margin-left: -30px;
 }
 
+
+/* capa
+--------------------------*/
+
+.capa {
+    text-align: center;
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+
+}
+
+.btn-roxo {
+    background: #7c25f8;
+}
+
+.btn-roxo:hover {
+    background: #6207e3;
+    color: white;
+}
+
+.btn-branco {
+    border: 2px solid white;
+}
+
+.btn-branco:hover {
+    background-color: white;
+    color: black; 
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+
 .servicos{
     background: white;
 }
 
+.carousel-item h1{
+    color: rgb(224, 32, 32);
+}
+
 /* capa de apresentação
 --------------------------*/
-
 .capa {
     text-align: center;
 }
