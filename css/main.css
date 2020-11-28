@@ -129,6 +129,19 @@ nav.navbar-transparent {
     color: rgb(224, 32, 32);
 }
 
+.sobre {
+    background: white;
+    margin:10px 0 10px 0;
+    padding: 20px;
+    text-align: center;
+
+}
+
+span{
+    text-align: justify;
+}
+
+
 /* capa de apresentação
 --------------------------*/
 .capa {
