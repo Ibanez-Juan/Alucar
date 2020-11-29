@@ -1,0 +1,27 @@
+/* Cadastro
+***************************/
+.header-img {
+    height: 150px;
+}
+
+.cadastro {
+    background: white;
+    padding-bottom: 50px;
+}
+
+.login-cadastro h3 {
+    color: black;
+}
+
+.login-cadastro {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nome {
+    padding-bottom: 20px;
+}
+.usuario{
+    padding-bottom: 20px;
+}

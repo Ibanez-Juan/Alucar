@@ -191,14 +191,6 @@ footer ul li {
 }
 
 
-/* Contato
----------------------------*/
-.contato {
-    background: white;
-    padding: 30px;
-}
-
-
 /* Tipografia
 --------------------------*/
 h1 {
@@ -268,9 +260,7 @@ h3 {
        flex-direction: column;
    }
    
-.header-img {
-    height: 150px;
-}
+
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
