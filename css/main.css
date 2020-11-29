@@ -208,6 +208,11 @@ span{
     padding: 10px 0;
 }
 
+.albuns img{
+    height: 11em;
+    right: 11em;
+}
+
 #quem-somos img{
     height: 28em;
     right: 28em;
