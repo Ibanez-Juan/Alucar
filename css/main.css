@@ -33,6 +33,7 @@ nav.navbar-transparent {
 }
 
 .logo-escrito h3{
+    color: black;
     font-size: 50px;
     padding: 0px;
     font-family: 'Oregano', cursive;
@@ -73,6 +74,18 @@ nav.navbar-transparent {
     margin-left: -30px;
 }
 
+.estilo {
+    height: 20px;
+    right: 20px;
+}
+
+#servicos {
+    background: white;
+}
+
+#servicos h2,h3 {
+    color: #7c25f8;
+}
 
 /* capa
 --------------------------*/
