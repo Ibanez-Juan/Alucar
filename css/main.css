@@ -152,6 +152,27 @@ span{
     height: 500px;
 }
 
+/* Recursos
+*********************/
+.recursos {
+    background: #fff;
+    padding-top: 40px;
+}
+
+.recursos img{
+    height: 17em;
+    right: 17em;
+}
+
+.recursos h4 {
+    padding-top: 20px;
+}
+
+.recursos p{
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
 /* Contato
 ---------------------------*/
 .header-img {
