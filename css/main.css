@@ -154,6 +154,10 @@ span{
 
 /* Recursos
 *********************/
+.caixa {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 .recursos {
     background: #fff;
     padding-top: 40px;
@@ -172,6 +176,31 @@ span{
     padding-bottom: 20px;
     text-align: justify;
 }
+
+/** Quem somos
+*************************/
+#quem-somos {
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+
+#quem-somos h3 {
+    color: black; 
+}
+
+.albuns {
+    padding: 10px 0;
+}
+
+#quem-somos img{
+    height: 28em;
+    right: 28em;
+    padding-left: 50px;
+}
+
 
 /* Contato
 ---------------------------*/
