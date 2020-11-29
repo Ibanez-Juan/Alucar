@@ -152,6 +152,18 @@ span{
     height: 500px;
 }
 
+/* Contato
+---------------------------*/
+.header-img {
+    height: 150px;
+}
+
+.contato {
+    background: white;
+    padding: 30px;
+}
+
+
 /* Rodape
 --------------------------*/
 footer {
