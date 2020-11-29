@@ -1,4 +1,3 @@
-
 /* Formatações gerais
 -------------------------- */
 html, body, #home {
@@ -269,8 +268,9 @@ h3 {
        flex-direction: column;
    }
    
-
-
+.header-img {
+    height: 150px;
+}
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
