@@ -29,3 +29,29 @@
 .conteudo-alugar span{
     text-align: justify;
 }
+
+label{
+    display:flex;
+    font:18px Lucida;
+    float: right;
+    
+}
+label input{
+    float: right;
+}
+
+
+.botao-leitura{
+    margin-top: 10px;
+}
+
+.ajustes {
+    display:block;
+    margin: 5px 0 0 0;
+    background: #6c757d;
+    color: white;
+    align-items: left;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
