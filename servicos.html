@@ -124,12 +124,12 @@
                                           tempo de aluguel
                                         </button>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" name="divulg" value="um-dia"/></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" name="divulg" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" name="divulg" value="um-mes"/></label></button>
+                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia()" name="divulg" id="dia" value="um-dia" /></label></button>
+                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana()" name="divulg" id="semana" value="uma-semana"/></label></button>
+                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes()" name="divulg" id="mes" value="um-mes" /></label></button>
                                         </div>
                                     </div>
-                                    <input class="form-control botao-leitura" type="text" placeholder="Valor R$: " readonly>
+                                    <p class="ajustes" id="modificado">R$: </p>
                                   <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
                                 </div>
                             </div>
@@ -178,12 +178,12 @@
                                           tempo de aluguel
                                         </button>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" name="divulg" value="um-dia"/></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" name="divulg" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" name="divulg" value="um-mes"/></label></button>
+                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia1()" name="divulg" id="dia1" value="um-dia" /></label></button>
+                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana1()" name="divulg" id="semana1" value="uma-semana"/></label></button>
+                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes1()" name="divulg" id="mes1" value="um-mes" /></label></button>
                                         </div>
                                     </div>
-                                    <input class="form-control botao-leitura" type="text" placeholder="Valor R$: " readonly>
+                                    <p class="ajustes" id="modificado1">R$: </p>
                                   <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
                                 </div>
                             </div>
@@ -231,12 +231,12 @@
                                           tempo de aluguel
                                         </button>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" name="divulg" value="um-dia"/></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" name="divulg" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" name="divulg" value="um-mes"/></label></button>
+                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia2()" name="divulg" id="dia2" value="um-dia" /></label></button>
+                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana2()" name="divulg" id="semana2" value="uma-semana"/></label></button>
+                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes2()" name="divulg" id="mes2" value="um-mes" /></label></button>
                                         </div>
                                     </div>
-                                  <input class="form-control botao-leitura" type="text" placeholder="Valor R$: " readonly>
+                                    <p class="ajustes" id="modificado2">R$: </p>
                                   <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
                                 </div>
                             </div>
@@ -291,12 +291,12 @@
                                           tempo de aluguel
                                         </button>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" name="divulg" value="um-dia"/></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" name="divulg" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" name="divulg" value="um-mes"/></label></button>
+                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia3()" name="divulg" id="dia3" value="um-dia" /></label></button>
+                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana3()" name="divulg" id="semana3" value="uma-semana"/></label></button>
+                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes3()" name="divulg" id="mes3" value="um-mes" /></label></button>
                                         </div>
                                     </div>
-                                    <input class="form-control botao-leitura" type="text" placeholder="Valor R$: " readonly>
+                                    <p class="ajustes" id="modificado3">R$: </p>
                                   <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
                                 </div>
                             </div>
@@ -345,12 +345,12 @@
                                           tempo de aluguel
                                         </button>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" name="divulg" value="um-dia"/></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" name="divulg" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" name="divulg" value="um-mes"/></label></button>
+                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia4()" name="divulg" id="dia4" value="um-dia" /></label></button>
+                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana4()" name="divulg" id="semana4" value="uma-semana"/></label></button>
+                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes4()" name="divulg" id="mes4" value="um-mes" /></label></button>
                                         </div>
                                     </div>
-                                    <input class="form-control botao-leitura" type="text" placeholder="Input só de leitura, aqui..." readonly>
+                                    <p class="ajustes" id="modificado4">R$: </p>
                                   <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
                                 </div>
                             </div>
@@ -398,12 +398,12 @@
                                           tempo de aluguel
                                         </button>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" name="divulg" value="um-dia"/></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" name="divulg" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" name="divulg" value="um-mes"/></label></button>
+                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia5()" name="divulg" id="dia5" value="um-dia" /></label></button>
+                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana5()" name="divulg" id="semana5" value="uma-semana"/></label></button>
+                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes5()" name="divulg" id="mes5" value="um-mes" /></label></button>
                                         </div>
                                     </div>
-                                    <input class="form-control botao-leitura" type="text" placeholder="Valor R$: " readonly>
+                                    <p class="ajustes" id="modificado5">R$: </p>
                                   <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
                                 </div>
                             </div>
@@ -457,12 +457,12 @@
                                           tempo de aluguel
                                         </button>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" name="divulg" value="um-dia"/></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" name="divulg" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" name="divulg" value="um-mes"/></label></button>
+                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia6()" name="divulg" id="dia6" value="um-dia" /></label></button>
+                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana6()" name="divulg" id="semana6" value="uma-semana"/></label></button>
+                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes6()" name="divulg" id="mes6" value="um-mes" /></label></button>
                                         </div>
                                     </div>
-                                    <input class="form-control botao-leitura" type="text" placeholder="Valor R$: " readonly>
+                                    <p class="ajustes" id="modificado6">R$: </p>
                                   <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
                                 </div>
                             </div>
@@ -511,12 +511,12 @@
                                           tempo de aluguel
                                         </button>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" name="divulg" value="um-dia"/></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" name="divulg" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" name="divulg" value="um-mes"/></label></button>
+                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia7()" name="divulg" id="dia7" value="um-dia" /></label></button>
+                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana7()" name="divulg" id="semana7" value="uma-semana"/></label></button>
+                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes7()" name="divulg" id="mes7" value="um-mes" /></label></button>
                                         </div>
                                     </div>
-                                  <input class="form-control botao-leitura" type="text" placeholder="Valor R$: " readonly>
+                                    <p class="ajustes" id="modificado7">R$: </p>
                                   <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
                                 </div>
                             </div>
@@ -564,12 +564,12 @@
                                           tempo de aluguel
                                         </button>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia()" name="divulg" value="um-dia" /></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana()" name="divulg" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes()" name="divulg" value="um-mes" /></label></button>
+                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia8()" name="divulg" id="dia8" value="um-dia" /></label></button>
+                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana8()" name="divulg" id="semana8" value="uma-semana"/></label></button>
+                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes8()" name="divulg" id="mes8" value="um-mes" /></label></button>
                                         </div>
                                     </div>
-                                    <p class="ajustes" id="modificado">R$: </p>
+                                    <p class="ajustes" id="modificado8">R$: </p>
                                   <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
                                 </div>
                             </div>

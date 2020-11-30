@@ -48,10 +48,10 @@ label input{
 .ajustes {
     display:block;
     margin: 5px 0 0 0;
-    background: #6c757d;
-    color: white;
+    color: grey;
+    background: #e7e5ee;
     align-items: left;
-    border: 1px solid grey;
+    border: 1px solid #d4d2da;
     border-radius: 5px;
     padding: 5px;
 }
