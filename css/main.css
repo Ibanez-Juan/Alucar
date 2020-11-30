@@ -198,8 +198,6 @@ span{
     font-size: 18px;
 }
 
-
-
 #quem-somos h3 {
     color: black; 
 }
@@ -290,57 +288,7 @@ h3 {
     font-size: 2em;
     font-weight: 700;
     letter-spacing: -0.04em;
-}
-
-/*  FORMULARIOS */
-.formulario-carros{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    max-width: 400px;
-    padding: 20px;
-    margin: 10px;
-   }
-   .formulario-carros input[type="submit"]{
-       margin-top: 20px;
-       padding: 10px;
-       border-radius: 25px;
-       border: none;
-       background-color: rgb(140, 140, 140);
-       color: white;
-   }
-   .formulario-carros select,
-   .formulario-carros input[type="text"],
-   .formulario-carros input[type="password"]{
-       padding: 10px;
-       border: none;
-       background-color: rgb(230, 230, 230);
-   }
-   .formulario-carros input[type="submit"]:hover{
-       background-color: rgb(70, 70, 70);
-   }
-   .formulario-carros label{
-       font-size: 23px;
-       color: white;
-       margin-bottom: -6px;
-   }
-   .alugue-agora{
-       padding: 20px;
-       background-color: rgba(0, 0, 0, 0.3);
-       margin: 0 auto;
-       max-width: 500px;
-       box-shadow: 5px 5px 5px 5px #888888;
-   }
-   .campo{
-       margin: 10px 0;
-       display: flex;
-       flex-direction: column;
-       margin: 10px 0;
-       display: flex;
-       flex-direction: column;
-   }
-   
-
+}   
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {

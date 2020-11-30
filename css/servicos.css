@@ -1,0 +1,31 @@
+.alugar {
+    background: #fff;
+}
+
+
+.cards{
+    margin: 40px;
+}
+.cards img{
+    height: 11em;
+    right: 11em;
+}
+
+.cards p {
+    text-align: center;
+}
+
+.botao{
+    margin-top: 10px;
+}
+
+.conteudo-alugar{
+    padding-top:10px;
+}
+.conteudo-alugar h3{
+    color: black;
+}
+
+.conteudo-alugar span{
+    text-align: justify;
+}
