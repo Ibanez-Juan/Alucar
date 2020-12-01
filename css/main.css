@@ -74,6 +74,30 @@ nav.navbar-transparent {
     margin-left: -30px;
 }
 
+/*Estilo Personalizado
+***************************************/
+.estilo-personalizado {
+    padding:15px 5px 15px 5px;
+}
+
+.estilo-personalizado p{
+    color: 	black;
+    text-align: justify;
+    padding: 5px;
+}
+
+.estilo-personalizado h2 {
+    color: #7c25f8;
+    padding-bottom: 5px;
+
+}
+
+.estilo-personalizado h3{
+    color: black;
+    padding-bottom: 20px;
+}
+
+
 
 #servicos {
     background: white;
