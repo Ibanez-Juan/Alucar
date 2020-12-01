@@ -1,633 +1,1138 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
     <!-- Tegs Obrigatórias-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
 
-     <!-- Font Awesome -->
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
 
-     <!--Font Family-->
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-     <link href="https://fonts.googleapis.com/css2?family=Oregano&display=swap" rel="stylesheet">
- 
-     <!-- HTML5Shiv -->
-     <!--[if lt IE 9]>
-       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-     <![endif]-->
- 
-     <!-- Estilo customizado -->
-     <link rel="stylesheet" type="text/css" href="css/main.css">
-     <link rel="stylesheet" type="text/css" href="css/servicos.css">
+    <!--Font Family-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oregano&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- HTML5Shiv -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/servicos.css" />
 
     <!--Colocar a imagem de logo-->
-    <link rel="icon" href="img/logo.svg">
+    <link rel="icon" href="img/logo.svg" />
     <title>Alucar</title>
-    
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparent">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <a href="index.html" class="navbar-brand">
-                           <div class="logo-escrito">
-                               <h3>Alu<span>Car</span></h3>
-                               <p>Seu carro em um clique</p>
-                           </div>
-                        </a>
-                    </div>
+      <nav
+        class="navbar navbar-expand-md navbar-light fixed-top navbar-transparent"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <a href="index.html" class="navbar-brand">
+                <div class="logo-escrito">
+                  <h3>Alu<span>Car</span></h3>
+                  <p>Seu carro em um clique</p>
                 </div>
-                
-            <!--Esconder os conteúdos-->
-              <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-                <i class="fas fa-bars text-white"></i>
-              </button> <!-- / Esconder conteudos-->
-    
-              <div class="collapse navbar-collapse" id="nav-principal">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>     
-                    <li class="nav-item">
-                        <a href="cadastro.html" class="nav-link">Cadastre-se</a>
-                    </li>   
-                    <li class="nav-item">
-                        <a href="login.html" class="nav-link">Login</a>
-                    </li>       
-                </ul>
-              </div>
+              </a>
             </div>
-          </nav>
+          </div>
+
+          <!--Esconder os conteúdos-->
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#nav-principal"
+          >
+            <i class="fas fa-bars text-white"></i>
+          </button>
+          <!-- / Esconder conteudos-->
+
+          <div class="collapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="cadastro.html" class="nav-link">Cadastre-se</a>
+              </li>
+              <li class="nav-item">
+                <a href="login.html" class="nav-link">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <section class="header-img">
-        <!--Efeitos de estetica-->
+      <!--Efeitos de estetica-->
     </section>
 
     <section class="alugar">
-        <div class="container">
-            <div class="conteudo-alugar">
-                <h3>Escolha seu carro</h3>
-                <h4>Simples Fácil e descomplicado.</h4>
-                <span>Basta escolher o carro e o tempo de aluguel, clicar em alugar e pronto, é buscar o carro e sair dirigindo.</span>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                   <div class="row">
-                        <div class="col-md-3 cards">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="img/imgcarro1.png" alt="Imagem de capa do card">
-                                <p>Fiat Uno 1.0</p>
-                                <div class="card-body">
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          Mais informações
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <div class="row">
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>4 portas</p>
-                                              </div>
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>Air bag</p>
-                                              </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>abs</p>
-                                                </div>
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>2 malas(s) G</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>1 mala(s)</p>
-                                            </div>
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>5 pessoas</p>
-                                            </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          tempo de aluguel
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia()" name="divulg" id="dia" value="um-dia" /></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana()" name="divulg" id="semana" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes()" name="divulg" id="mes" value="um-mes" /></label></button>
-                                        </div>
-                                    </div>
-                                    <p class="ajustes" id="modificado">R$: </p>
-                                  <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-3 cards">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="img/imgcarro2.png" alt="Imagem de capa do card">
-                                <p>Renault Kwid 1.0</p>
-                                <div class="card-body">
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          Mais informações
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <div class="row">
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>4 portas</p>
-                                              </div>
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>Ar-Condicionado</p>
-                                              </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>abs</p>
-                                                </div>
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>2 malas(s) G</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>1 mala(s)</p>
-                                            </div>
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>5 pessoas</p>
-                                            </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          tempo de aluguel
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia1()" name="divulg" id="dia1" value="um-dia" /></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana1()" name="divulg" id="semana1" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes1()" name="divulg" id="mes1" value="um-mes" /></label></button>
-                                        </div>
-                                    </div>
-                                    <p class="ajustes" id="modificado1">R$: </p>
-                                  <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 cards">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="img/imgcarro3.png" alt="Imagem de capa do card">
-                                <p>Renault Sandero 1.0</p>
-                                <div class="card-body">
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          Mais informações
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <div class="row">
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>4 portas</p>
-                                              </div>
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>Air bag</p>
-                                              </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>abs</p>
-                                                </div>
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>2 malas(s) G</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>1 mala(s)</p>
-                                            </div>
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>5 pessoas</p>
-                                            </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          tempo de aluguel
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia2()" name="divulg" id="dia2" value="um-dia" /></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana2()" name="divulg" id="semana2" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes2()" name="divulg" id="mes2" value="um-mes" /></label></button>
-                                        </div>
-                                    </div>
-                                    <p class="ajustes" id="modificado2">R$: </p>
-                                  <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
-                                </div>
-                            </div>
-                        </div>
-                   </div>
-                </div>
-            </div>    
-
-            <div class="row">
-                <div class="col-md-12">
-                   <div class="row">
-                        <div class="col-md-3 cards">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="img/imgcarro4.png" alt="Imagem de capa do card">
-                                <p>GM Onix 1.0</p>
-                                <div class="card-body">
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          Mais informações
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <div class="row">
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>4 portas</p>
-                                              </div>
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>Air bag</p>
-                                              </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>abs</p>
-                                                </div>
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>2 malas(s) G</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>1 mala(s)</p>
-                                            </div>
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>5 pessoas</p>
-                                            </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          tempo de aluguel
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia3()" name="divulg" id="dia3" value="um-dia" /></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana3()" name="divulg" id="semana3" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes3()" name="divulg" id="mes3" value="um-mes" /></label></button>
-                                        </div>
-                                    </div>
-                                    <p class="ajustes" id="modificado3">R$: </p>
-                                  <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-3 cards">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="img/imgcarro5.png" alt="Imagem de capa do card">
-                                <p>Hyundai HB20S 1.0</p>
-                                <div class="card-body">
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          Mais informações
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <div class="row">
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>4 portas</p>
-                                              </div>
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>Ar-Condicionado</p>
-                                              </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>abs</p>
-                                                </div>
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>2 malas(s) G</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>1 mala(s)</p>
-                                            </div>
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>5 pessoas</p>
-                                            </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          tempo de aluguel
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia4()" name="divulg" id="dia4" value="um-dia" /></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana4()" name="divulg" id="semana4" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes4()" name="divulg" id="mes4" value="um-mes" /></label></button>
-                                        </div>
-                                    </div>
-                                    <p class="ajustes" id="modificado4">R$: </p>
-                                  <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 cards">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="img/imgcarro6.png" alt="Imagem de capa do card">
-                                <p>VW Gol 1.6</p>
-                                <div class="card-body">
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          Mais informações
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <div class="row">
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>4 portas</p>
-                                              </div>
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>Air bag</p>
-                                              </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>abs</p>
-                                                </div>
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>2 malas(s) G</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>1 mala(s)</p>
-                                            </div>
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>5 pessoas</p>
-                                            </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          tempo de aluguel
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia5()" name="divulg" id="dia5" value="um-dia" /></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana5()" name="divulg" id="semana5" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes5()" name="divulg" id="mes5" value="um-mes" /></label></button>
-                                        </div>
-                                    </div>
-                                    <p class="ajustes" id="modificado5">R$: </p>
-                                  <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
-                                </div>
-                            </div>
-                        </div>
-                   </div>
-                </div>
-            </div>  
-            <div class="row">
-                <div class="col-md-12">
-                   <div class="row">
-                        <div class="col-md-3 cards">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="img/imgcarro7.png" alt="Imagem de capa do card">
-                                <p>Renault Sandero 1.6</p>
-                                <div class="card-body">
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          Mais informações
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <div class="row">
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>4 portas</p>
-                                              </div>
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>Air bag</p>
-                                              </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>abs</p>
-                                                </div>
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>2 malas(s) G</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>1 mala(s)</p>
-                                            </div>
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>5 pessoas</p>
-                                            </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          tempo de aluguel
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia6()" name="divulg" id="dia6" value="um-dia" /></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana6()" name="divulg" id="semana6" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes6()" name="divulg" id="mes6" value="um-mes" /></label></button>
-                                        </div>
-                                    </div>
-                                    <p class="ajustes" id="modificado6">R$: </p>
-                                  <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-3 cards">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="img/imgcarro8.png" alt="Imagem de capa do card">
-                                <p>Peugeot 208 Active 1.2 FAST</p>
-                                <div class="card-body">
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          Mais informações
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <div class="row">
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>4 portas</p>
-                                              </div>
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>Ar-Condicionado</p>
-                                              </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>abs</p>
-                                                </div>
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>2 malas(s) G</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>1 mala(s)</p>
-                                            </div>
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>5 pessoas</p>
-                                            </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          tempo de aluguel
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia7()" name="divulg" id="dia7" value="um-dia" /></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana7()" name="divulg" id="semana7" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes7()" name="divulg" id="mes7" value="um-mes" /></label></button>
-                                        </div>
-                                    </div>
-                                    <p class="ajustes" id="modificado7">R$: </p>
-                                  <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 cards">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="img/imgcarro9.png" alt="Imagem de capa do card">
-                                <p>Ford Ka Sedan 1.0</p>
-                                <div class="card-body">
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          Mais informações
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <div class="row">
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>4 portas</p>
-                                              </div>
-                                              <div class="col-md-5 dropdown-item">
-                                                <p>Air bag</p>
-                                              </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>abs</p>
-                                                </div>
-                                                <div class="col-md-5 dropdown-item">
-                                                    <p>2 malas(s) G</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>1 mala(s)</p>
-                                            </div>
-                                            <div class="col-md-5 dropdown-item">
-                                              <p>5 pessoas</p>
-                                            </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown botao">
-                                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          tempo de aluguel
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <button class="dropdown-item" type="button">Uma dia<label><input type="radio" onclick="modificaDia8()" name="divulg" id="dia8" value="um-dia" /></label></button>
-                                          <button class="dropdown-item" type="button">Uma semana<label><input type="radio" onclick="modificaSemana8()" name="divulg" id="semana8" value="uma-semana"/></label></button>
-                                          <button class="dropdown-item" type="button">Um mês<label><input type="radio" onclick="modificaMes8()" name="divulg" id="mes8" value="um-mes" /></label></button>
-                                        </div>
-                                    </div>
-                                    <p class="ajustes" id="modificado8">R$: </p>
-                                  <a href="#" class="btn btn-primary btn-block botao">Alugar agora</a>
-                                </div>
-                            </div>
-                        </div>
-                   </div>
-                </div>
-            </div>  
-
+      <div class="container">
+        <div class="conteudo-alugar">
+          <h3>Escolha seu carro</h3>
+          <h4>Simples Fácil e descomplicado.</h4>
+          <span
+            >Basta escolher o carro e o tempo de aluguel, clicar em alugar e
+            pronto, é buscar o carro e sair dirigindo.</span
+          >
         </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-3 cards">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="img/imgcarro1.png"
+                    alt="Imagem de capa do card"
+                  />
+                  <p>Fiat Uno 1.0</p>
+                  <div class="card-body">
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Mais informações
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>4 portas</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>Air bag</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>abs</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>2 malas(s) G</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>1 mala(s)</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>5 pessoas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        tempo de aluguel
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <button class="dropdown-item" type="button">
+                          Uma dia<label
+                            ><input
+                              type="radio"
+                              onclick="modificaDia()"
+                              name="divulg"
+                              id="dia"
+                              value="um-dia"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Uma semana<label
+                            ><input
+                              type="radio"
+                              onclick="modificaSemana()"
+                              name="divulg"
+                              id="semana"
+                              value="uma-semana"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Um mês<label
+                            ><input
+                              type="radio"
+                              onclick="modificaMes()"
+                              name="divulg"
+                              id="mes"
+                              value="um-mes"
+                          /></label>
+                        </button>
+                      </div>
+                    </div>
+                    <p class="ajustes" id="modificado">R$:</p>
+                    <a href="#" class="btn btn-primary btn-block botao"
+                      >Alugar agora</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 cards">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="img/imgcarro2.png"
+                    alt="Imagem de capa do card"
+                  />
+                  <p>Renault Kwid 1.0</p>
+                  <div class="card-body">
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Mais informações
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>4 portas</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>Ar-Condicionado</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>abs</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>2 malas(s) G</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>1 mala(s)</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>5 pessoas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        tempo de aluguel
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <button class="dropdown-item" type="button">
+                          Uma dia<label
+                            ><input
+                              type="radio"
+                              onclick="modificaDia1()"
+                              name="divulg"
+                              id="dia1"
+                              value="um-dia"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Uma semana<label
+                            ><input
+                              type="radio"
+                              onclick="modificaSemana1()"
+                              name="divulg"
+                              id="semana1"
+                              value="uma-semana"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Um mês<label
+                            ><input
+                              type="radio"
+                              onclick="modificaMes1()"
+                              name="divulg"
+                              id="mes1"
+                              value="um-mes"
+                          /></label>
+                        </button>
+                      </div>
+                    </div>
+                    <p class="ajustes" id="modificado1">R$:</p>
+                    <a href="#" class="btn btn-primary btn-block botao"
+                      >Alugar agora</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 cards">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="img/imgcarro3.png"
+                    alt="Imagem de capa do card"
+                  />
+                  <p>Renault Sandero 1.0</p>
+                  <div class="card-body">
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Mais informações
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>4 portas</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>Air bag</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>abs</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>2 malas(s) G</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>1 mala(s)</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>5 pessoas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        tempo de aluguel
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <button class="dropdown-item" type="button">
+                          Uma dia<label
+                            ><input
+                              type="radio"
+                              onclick="modificaDia2()"
+                              name="divulg"
+                              id="dia2"
+                              value="um-dia"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Uma semana<label
+                            ><input
+                              type="radio"
+                              onclick="modificaSemana2()"
+                              name="divulg"
+                              id="semana2"
+                              value="uma-semana"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Um mês<label
+                            ><input
+                              type="radio"
+                              onclick="modificaMes2()"
+                              name="divulg"
+                              id="mes2"
+                              value="um-mes"
+                          /></label>
+                        </button>
+                      </div>
+                    </div>
+                    <p class="ajustes" id="modificado2">R$:</p>
+                    <a href="#" class="btn btn-primary btn-block botao"
+                      >Alugar agora</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-3 cards">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="img/imgcarro4.png"
+                    alt="Imagem de capa do card"
+                  />
+                  <p>GM Onix 1.0</p>
+                  <div class="card-body">
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Mais informações
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>4 portas</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>Air bag</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>abs</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>2 malas(s) G</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>1 mala(s)</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>5 pessoas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        tempo de aluguel
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <button class="dropdown-item" type="button">
+                          Uma dia<label
+                            ><input
+                              type="radio"
+                              onclick="modificaDia3()"
+                              name="divulg"
+                              id="dia3"
+                              value="um-dia"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Uma semana<label
+                            ><input
+                              type="radio"
+                              onclick="modificaSemana3()"
+                              name="divulg"
+                              id="semana3"
+                              value="uma-semana"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Um mês<label
+                            ><input
+                              type="radio"
+                              onclick="modificaMes3()"
+                              name="divulg"
+                              id="mes3"
+                              value="um-mes"
+                          /></label>
+                        </button>
+                      </div>
+                    </div>
+                    <p class="ajustes" id="modificado3">R$:</p>
+                    <a href="#" class="btn btn-primary btn-block botao"
+                      >Alugar agora</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 cards">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="img/imgcarro5.png"
+                    alt="Imagem de capa do card"
+                  />
+                  <p>Hyundai HB20S 1.0</p>
+                  <div class="card-body">
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Mais informações
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>4 portas</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>Ar-Condicionado</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>abs</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>2 malas(s) G</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>1 mala(s)</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>5 pessoas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        tempo de aluguel
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <button class="dropdown-item" type="button">
+                          Uma dia<label
+                            ><input
+                              type="radio"
+                              onclick="modificaDia4()"
+                              name="divulg"
+                              id="dia4"
+                              value="um-dia"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Uma semana<label
+                            ><input
+                              type="radio"
+                              onclick="modificaSemana4()"
+                              name="divulg"
+                              id="semana4"
+                              value="uma-semana"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Um mês<label
+                            ><input
+                              type="radio"
+                              onclick="modificaMes4()"
+                              name="divulg"
+                              id="mes4"
+                              value="um-mes"
+                          /></label>
+                        </button>
+                      </div>
+                    </div>
+                    <p class="ajustes" id="modificado4">R$:</p>
+                    <a href="#" class="btn btn-primary btn-block botao"
+                      >Alugar agora</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 cards">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="img/imgcarro6.png"
+                    alt="Imagem de capa do card"
+                  />
+                  <p>VW Gol 1.6</p>
+                  <div class="card-body">
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Mais informações
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>4 portas</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>Air bag</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>abs</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>2 malas(s) G</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>1 mala(s)</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>5 pessoas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        tempo de aluguel
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <button class="dropdown-item" type="button">
+                          Uma dia<label
+                            ><input
+                              type="radio"
+                              onclick="modificaDia5()"
+                              name="divulg"
+                              id="dia5"
+                              value="um-dia"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Uma semana<label
+                            ><input
+                              type="radio"
+                              onclick="modificaSemana5()"
+                              name="divulg"
+                              id="semana5"
+                              value="uma-semana"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Um mês<label
+                            ><input
+                              type="radio"
+                              onclick="modificaMes5()"
+                              name="divulg"
+                              id="mes5"
+                              value="um-mes"
+                          /></label>
+                        </button>
+                      </div>
+                    </div>
+                    <p class="ajustes" id="modificado5">R$:</p>
+                    <a href="#" class="btn btn-primary btn-block botao"
+                      >Alugar agora</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-3 cards">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="img/imgcarro7.png"
+                    alt="Imagem de capa do card"
+                  />
+                  <p>Renault Sandero 1.6</p>
+                  <div class="card-body">
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Mais informações
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>4 portas</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>Air bag</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>abs</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>2 malas(s) G</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>1 mala(s)</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>5 pessoas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        tempo de aluguel
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <button class="dropdown-item" type="button">
+                          Uma dia<label
+                            ><input
+                              type="radio"
+                              onclick="modificaDia6()"
+                              name="divulg"
+                              id="dia6"
+                              value="um-dia"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Uma semana<label
+                            ><input
+                              type="radio"
+                              onclick="modificaSemana6()"
+                              name="divulg"
+                              id="semana6"
+                              value="uma-semana"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Um mês<label
+                            ><input
+                              type="radio"
+                              onclick="modificaMes6()"
+                              name="divulg"
+                              id="mes6"
+                              value="um-mes"
+                          /></label>
+                        </button>
+                      </div>
+                    </div>
+                    <p class="ajustes" id="modificado6">R$:</p>
+                    <a href="#" class="btn btn-primary btn-block botao"
+                      >Alugar agora</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 cards">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="img/imgcarro8.png"
+                    alt="Imagem de capa do card"
+                  />
+                  <p>Peugeot 208 Active 1.2 FAST</p>
+                  <div class="card-body">
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Mais informações
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>4 portas</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>Ar-Condicionado</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>abs</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>2 malas(s) G</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>1 mala(s)</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>5 pessoas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        tempo de aluguel
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <button class="dropdown-item" type="button">
+                          Uma dia<label
+                            ><input
+                              type="radio"
+                              onclick="modificaDia7()"
+                              name="divulg"
+                              id="dia7"
+                              value="um-dia"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Uma semana<label
+                            ><input
+                              type="radio"
+                              onclick="modificaSemana7()"
+                              name="divulg"
+                              id="semana7"
+                              value="uma-semana"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Um mês<label
+                            ><input
+                              type="radio"
+                              onclick="modificaMes7()"
+                              name="divulg"
+                              id="mes7"
+                              value="um-mes"
+                          /></label>
+                        </button>
+                      </div>
+                    </div>
+                    <p class="ajustes" id="modificado7">R$:</p>
+                    <a href="#" class="btn btn-primary btn-block botao"
+                      >Alugar agora</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 cards">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="img/imgcarro9.png"
+                    alt="Imagem de capa do card"
+                  />
+                  <p>Ford Ka Sedan 1.0</p>
+                  <div class="card-body">
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Mais informações
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>4 portas</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>Air bag</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>abs</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>2 malas(s) G</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 dropdown-item">
+                            <p>1 mala(s)</p>
+                          </div>
+                          <div class="col-md-5 dropdown-item">
+                            <p>5 pessoas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dropdown botao">
+                      <button
+                        class="btn btn-secondary btn-block dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        tempo de aluguel
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <button class="dropdown-item" type="button">
+                          Uma dia<label
+                            ><input
+                              type="radio"
+                              onclick="modificaDia8()"
+                              name="divulg"
+                              id="dia8"
+                              value="um-dia"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Uma semana<label
+                            ><input
+                              type="radio"
+                              onclick="modificaSemana8()"
+                              name="divulg"
+                              id="semana8"
+                              value="uma-semana"
+                          /></label>
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Um mês<label
+                            ><input
+                              type="radio"
+                              onclick="modificaMes8()"
+                              name="divulg"
+                              id="mes8"
+                              value="um-mes"
+                          /></label>
+                        </button>
+                      </div>
+                    </div>
+                    <p class="ajustes" id="modificado8">R$:</p>
+                    <a href="#" class="btn btn-primary btn-block botao"
+                      >Alugar agora</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    
-<footer>
-    <div class="container">
+    <footer>
+      <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <span>&copy; Alucar - 2020 .</span>
-            </div>
-            <div class="col-md-2">
-                <h4>COMPANY</h4>
-                <ul class="navbar-nav">
-                    <li><a href="">Quem somos</a></li>
-                    <li><a href="">Nossa História</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Novidades</a></li>
-                </ul>
-            </div>
-            <div class="col-md-2">
-                <h4>LINKS UTEIS</h4>
-                <ul class="navbar-nav">
-                    <li><a href="">Ajuda</a></li>
-                    <li><a href="">Saiba Mais</a></li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <ul>
-                    
-                    <li>
-                        <a href=""><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                    </li>
-                
-                </ul>
-            </div>
-
+          <div class="col-md-4">
+            <span>&copy; Alucar - 2020 .</span>
+          </div>
+          <div class="col-md-2">
+            <h4>COMPANY</h4>
+            <ul class="navbar-nav">
+              <li><a href="">Quem somos</a></li>
+              <li><a href="">Nossa História</a></li>
+              <li><a href="">Sobre</a></li>
+              <li><a href="">Novidades</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>LINKS UTEIS</h4>
+            <ul class="navbar-nav">
+              <li><a href="">Ajuda</a></li>
+              <li><a href="">Saiba Mais</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul>
+              <li>
+                <a href=""><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
-</footer>
-<!-- JavaScript (Opcional) Pórem necessario para usar algumas funcionalidades do Bootstrap -->
-<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="js/script-servicos.js"></script>
-</body>
+      </div>
+    </footer>
+    <!-- JavaScript (Opcional) Pórem necessario para usar algumas funcionalidades do Bootstrap -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script-servicos.js"></script>
+  </body>
 </html>
